@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    /* filter: brightness(35%); */
+    background-color: rgb(0, 0, 0);
+}
+.head1{
+    height: 450px;
+    width: 380px;
+    background-color: rgb(152, 54, 209);
+    border-radius: 15px;
+    position: relative;
+    top: 180px;left: 540px;
+    
+    
+
+}
+.head1:hover{
+    box-shadow: 0px 0px 50px rgba(125, 105, 125, 0.461),0px 0px 50px rgb(103, 172, 183);
+}
+.lo1{
+    text-shadow:  -1px 0 4px black, 0 1px 4px black, 1px 0 4px black, 0 -1px 4px black;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 50px;
+    position: relative;
+    left: 10px;color: rgb(71, 62, 132);
+}
+
+.lo2{
+    text-shadow:  -1px 0 4px black, 0 1px 4px black, 1px 0 4px black, 0 -1px 4px black;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 45px;
+    position: relative;
+    bottom: 10px;left: 80px;color: rgb(221, 225, 228);
+}
+.head{
+    position: relative;
+    bottom: 250px;left:570px ;
+}
+.p2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 455px;left: 32.7%;
+}
+input{
+    border: none;
+     font-size: 17px;
+     height: 45px;width: 300px;
+     border-radius: 30px;
+     position: relative;
+     bottom: 140px;left: 575px;
+     padding: 0px 20px;
+     outline: none;
+ }
+ .but{
+    background-color: rgb(49, 5, 93);
+    border-radius: 30px;
+    color: rgb(241, 244, 242);
+    font-weight: bold;border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    height: 48px;width: 300px;
+    position: relative;
+    bottom: 70px;left: 272px;
+ }
+ .see{
+    font-size: 13px;
+    color: rgb(43, 41, 41);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 50px;left: 620px;
+ }
+ .empty{
+    height: 450px;width: 280px;
+    background-color: rgb(148, 148, 199);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    bottom: 483px;left:910px ;
+ }
+ .empty:hover{
+    box-shadow: 0px 0px 50px rgb(99, 85, 96),0px 0px 50px rgb(152, 54, 209);
+ }
+ .t1{
+    height: 220px;width: 230px;
+    position: relative;
+    bottom: 990px;left:935px ;
+ }
+ .see1{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(63, 4, 118);
+    position: relative;
+    bottom: 1010px;left: 970px;
+
+ }
+ .t3{
+    position: relative;
+    left: 25px;
+ }
+ .t4{
+    position: relative;
+    left: 12px;
+ }
+ .t5{
+    position: relative;
+    right: 20px;top: 5px;
+    font-size: 15px;
+    color: beige;
+ }
+ .last{
+    height: 150px;width: 220px;
+    position: relative;
+    bottom: 990px;left: 940px;
+ }
+ a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+}
+a:hover{
+   color: rgb(209, 54, 54);
+}

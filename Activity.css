@@ -1,0 +1,433 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 101px;
+}
+.top{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(152, 118, 239);
+    position: fixed;
+    z-index: 9999;top: 0;
+    /* position: sticky;
+    top: 0; */
+}
+button{
+    position: absolute;
+    top: 10px;left:38%;
+    border-radius: 50%;
+    font-size: 20px;
+    border: none;
+}
+form{
+    position: relative;border: none;
+    bottom: 143px;left: 30%;
+}
+input{
+   border: none;
+    font-size: 17px;
+    height: 45px;width: 700px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    letter-spacing: 0.1em;
+    outline: none;
+}
+h1{
+    text-shadow:  -1px 0 4px black, 0 1px 4px black, 1px 0 4px black, 0 -1px 4px black;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 40px;
+    position: relative;
+    left: 10px;color: rgb(71, 62, 132);
+}
+
+h2{
+    text-shadow:  -1px 0 4px black, 0 1px 4px black, 1px 0 4px black, 0 -1px 4px black;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 35px;
+    position: relative;
+    bottom: 10px;left: 80px;color: rgb(221, 225, 228);
+}
+h3{
+    font-size: 45px;
+    font-weight: bold;
+    position: relative;bottom: 85px;left: 250px;
+    color: rgb(89, 75, 102);
+}
+P{
+    font-size: 20px;
+    position: relative;
+    bottom: 105px;left: 290px;
+    font-weight: bold;color: rgb(227, 234, 239);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: white;
+}
+i{
+    color: rgb(245, 2, 2);
+    font-size: 25px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    top: -180px;left:500px ;
+    color: rgb(0, 0, 0);font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.p1{
+    height: 100px;width: 100px;
+    margin-left: 85%;
+    position: relative;
+    bottom: 249px;
+}
+.rv{
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-shadow: 9px;
+    font-weight: bold;
+    position: relative;
+    bottom: 330px;left:93.5%;
+}
+.login:hover{
+    box-shadow: rgb(205, 6, 149);
+}
+.o2{
+    position: relative;
+    left: -20px;
+    
+}
+.top2{
+    height:65px;width: 100%;
+    background-color:#2b0e40;
+}
+.p2{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: relative;
+    bottom: -18px;
+    text-align: center;
+    
+    animation: blink 6s linear infinite;}
+                @keyframes blink{
+                    0%{opacity: 0;}
+                    20%{opacity:0.5;}
+                    50%{opacity: 1;}
+                    80%{opacity: 0.5;}
+                    0%{opacity:0;}
+}
+.p4{
+    height: 50px;width: 80px;
+    position: relative;
+    bottom: 20px;left: 1%;
+
+}
+.p5{
+    height: 50px;width: 80px;
+    position: relative;
+    bottom: 20px;left: 89.5%;
+
+}
+.top3{
+    position: relative;
+}
+video{
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(35%);
+    padding: 20px;
+    padding-top: 15px;
+    border-radius: 30px;
+}
+.a1{
+    text-shadow:  -1px 0 10px black, 0 1px 10px black, 1px 0 10px black, 0 -1px 10px black;
+    color: rgb(51, 40, 124);
+    font-size: 120px;
+    font-family: 'Tilt Prism', cursive;
+    position: absolute;
+    bottom: 400px;left: 3%;
+}
+.a2{
+    position: absolute; 
+    left: 25%;color: rgb(102, 118, 121);
+}
+.a3{
+    color: rgb(195, 199, 199);
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 150px;left: 10%;
+}
+.a4{
+    background-color: rgb(10, 132, 53);
+    border-radius: 7px;
+    color: rgb(241, 244, 242);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    height: 45px;width: 200px;
+    position: absolute;
+    top: 580px;left: 15%;
+    animation-name: a;
+    animation-duration: 10s;
+    animation-iteration-count: 10;
+    
+}
+@keyframes a{
+    0%{background-color:rgb(6, 246, 6);}
+    20%{background-color:rgb(249, 5, 5);}
+    40%{background-color:blue;}
+    60%{background-color:rgb(0, 0, 0);}
+    80%{background-color:rgb(0, 208, 255);}
+    100%{background-color:rgb(255, 0, 234);}
+}
+.a5{
+    background-color: rgb(170, 56, 193);
+    border-bottom-left-radius: 10px;border-top-right-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    height: 42.5px;width: 218px;
+    position: absolute;
+    bottom: 655px;left: 86.3%;
+
+}
+.logo{
+    height: 150px;width: 150px;
+    position: relative;
+    left: 100px;
+}
+.vegv{
+    height: 162px;width:500px ;
+    position: relative;
+    left: 70px;top: 9px;
+    filter: brightness(75%);
+}
+.logo1{
+    height: 163.5px;width: 163.5px;
+    position: relative;
+    left: 55%;bottom: 160px;
+}
+.nveg{
+    height: 162px;width:500px ;
+    position: relative;
+    left: 52.8%;bottom:158px;
+    filter: brightness(75%);
+}
+.nonveg{
+    position: relative;
+    left:50px ;
+}
+.ver{
+    background-color: rgb(52, 50, 50);
+    height: 2270px;width: 2px;
+    position: relative;
+    left: 50%;bottom: 200px;
+}
+.vt1{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 50px;
+    padding: 5%;padding-top: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    left: 15%;bottom: 2420px;
+
+    animation: blink 6s linear infinite;}
+                @keyframes blink{
+                    0%{opacity: 0;}
+                    20%{opacity:0.5;}
+                    50%{opacity: 1;}
+                    80%{opacity: 0.5;}
+                    0%{opacity:0;}
+    
+}
+.green{
+    background-color: rgb(255, 255, 255);
+    color: green;
+    height: 30px;width: 200px;
+}
+.red{
+        background-color: rgb(255, 255, 255);
+        color:red;
+        height: 30px;width: 280px;
+        position: relative;
+    left: 100px;
+}
+.top5{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 60px;
+    padding: 5%;padding-top: 5px;
+    height: 150px;width: 200px;
+    position: relative;
+    bottom: 2470px;
+}
+img{
+    height: 200px;width: 300px;
+    object-fit: cover;
+    border-radius: 3%;
+}
+.top5 > div{
+    box-shadow: 5px 8px 20px rgb(238, 237, 238),5px 8px 20px rgb(238, 226, 238);
+    text-align: center;
+    padding: 4px;
+    background-color: rgb(61, 48, 124);
+    border-radius: 5px;
+    width: 320px;
+    
+}
+.top5 > div{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.f1{
+    color: black;font-weight: bold;
+    border-radius: 30px;border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(213, 199, 218);
+    height: 20px;width: 57px;font-size: 15px;
+    position: absolute;
+   left: 15px;
+}
+.add{
+    height: 23px;width:60px ;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 250px;right: 15px;
+
+    animation: blink 6s linear infinite;}
+                @keyframes blink{
+                    0%{opacity: 0;}
+                    20%{opacity:0.5;}
+                    50%{opacity: 1;}
+                    80%{opacity: 0.5;}
+                    0%{opacity:0;}
+}
+.d1{
+    /* display: unset; */
+    color: rgb(3, 1, 46);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 85.5%;left: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-bottom: 50px;
+}
+.t5{
+    /* display: grid;
+    grid-template-columns: auto; */
+    padding: 20px;background-color: rgb(81, 83, 81);
+    border-radius: 8px;font-weight: bold;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.top5 >div{
+    box-shadow: 5px 8px 15px gray ,5px 8px 15px black;
+}
+
+
+.top6{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 60px;
+    padding: 5%;padding-top: 5px;
+    height: 150px;width: 200px;
+    position: relative;
+    bottom: 2620px;left: 50%;
+}
+img{
+    height: 200px;width: 300px;
+    object-fit: cover;
+    border-radius: 3%;
+}
+.top6 > div{
+    box-shadow: 5px 8px 20px rgb(238, 237, 238),5px 8px 20px rgb(238, 226, 238);
+    text-align: center;
+    padding: 4px;
+    background-color: rgb(61, 48, 124);
+    border-radius: 5px;
+    width: 320px;
+    
+}
+.top6 > div{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.t6{
+    
+    padding: 20px;background-color: rgb(81, 83, 81);
+    border-radius: 8px;font-weight: bold;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.top6 >div{
+    box-shadow: 5px 8px 15px gray ,5px 8px 15px black;
+}
+.hr:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.show{
+    height: 30px;width: 120px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    position: relative;
+    left: 47%;bottom: 530px;
+}
+.end{
+    position: relative;
+    bottom: 300px;left: 100px;
+}
+hr{
+    position: relative;
+    bottom: 480px;
+}
+.icons{
+    display: flex;
+    gap: 20px;padding-top: 10px;
+    padding-left: 25px;
+
+    animation: blink 6s linear infinite;}
+                @keyframes blink{
+                    0%{opacity: 0;}
+                    20%{opacity:0.5;}
+                    50%{opacity: 1;}
+                    80%{opacity: 0.5;}
+                    0%{opacity:0;}
+}
+.screen{
+    height:250px;width:75%;
+    position: relative;
+    bottom: 500px;left: 335px;
+}
+.text4{
+    font-size: 25px;
+    color: #2b0e40;
+    position: relative;
+    bottom: 400px;left:700px ;
+                
+                
+}
